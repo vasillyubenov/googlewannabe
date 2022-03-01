@@ -259,15 +259,15 @@
     justify-items: center;
     background: #f2f2f2;
     flex-wrap: wrap;
-    column-gap: 120px;
-    height: 94px;
+    
+    height: 100px;
     box-sizing: border-box;
     position: fixed;
     bottom: 0px;
 }
 
 .footer-links-left{
-    margin-left: 60px;
+    margin-left: 30px;
     display: flex;
     flex-direction: row;
 }
@@ -278,7 +278,7 @@
 }
 
 .footer-links-left a, .footer-links-right a{
-    margin: 15px;
+    margin-right: 15px;
     text-decoration: none;
     color: #70757a;
     font-size: 14px;
@@ -294,5 +294,14 @@
     color: #70757a;
     width: 100%;
     padding: 15px 30px;
+    height: 48px;
     font-size: 15px;
-}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+    box-sizing: border-box;
+}    
+
+.footer-links-container{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
